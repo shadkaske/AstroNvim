@@ -91,4 +91,7 @@ return {
     pattern = { ".env" },
     command = [[lua vim.diagnostic.disable()]],
   }),
+
+  -- Automagically Trim Whitespace
+  vim.api.nvim_create_autocmd({ "BufWritePre" }, { pattern = { "*" }, command = [[%s/\s\+$//e]] })
 }
