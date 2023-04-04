@@ -43,10 +43,6 @@ return {
     ["<leader>yy"] = { '"+y', desc = "Yank to System" },
     ["<leader>yd"] = { '"+d', desc = "Delete to System" },
     [";;"] = { "A;<ESC>" },
-    ["gyo"] = { '"_dP', desc = "Paste Over" },
-    ["gyp"] = { '"+p', desc = "Paste System" },
-    ["gyy"] = { '"+y', desc = "Yank to System" },
-    ["gyd"] = { '"+d', desc = "Delete to System" },
   },
   t = {
     -- setting a mapping to false will disable it
