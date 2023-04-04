@@ -86,4 +86,9 @@ return {
       },
     }
   end,
+
+  vim.api.nvim_create_autocmd({ "BufEnter" }, {
+    pattern = { ".env" },
+    command = [[lua vim.diagnostic.disable()]],
+  }),
 }
