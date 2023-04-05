@@ -5,6 +5,7 @@ return {
   { import = "astrocommunity.debugging.nvim-bqf" },
   { import = "astrocommunity.motion.leap-nvim" },
   { import = "astrocommunity.motion.mini-move" },
+  { import = "astrocommunity.utility.noice-nvim" },
   -- example of imporing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
