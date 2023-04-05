@@ -30,8 +30,7 @@ return {
           },
           n = { ["q"] = actions.close },
         },
-
       },
     }
-  end
+  end,
 }
